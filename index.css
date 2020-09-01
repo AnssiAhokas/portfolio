@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 :root {
-  --color_bg: rgb(41, 92, 55);
-  --color_bg_loading: rgb(41, 92, 11);
-  --color_hover: 
+  --color_bg: rgb(29, 39, 87);
+  --color_panel_bg: rgb(255, 243, 220);
+  --color_title: rgb(127, 148, 250);
+  --color_bg_loading: rgb(127, 148, 250);
+  --color_hover: rgb(127, 148, 250);
+  --color_loading_circle: rgb(127, 148, 250);
+  --color_panel_text: rgb(29, 39, 87);
 }
 
 body {
@@ -85,7 +89,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 0, 89);
+    color:var(--color_title);
     font-size:70px;
     text-decoration:underline;
 }
@@ -143,15 +147,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:var(--color_bg);
+    background:var(--color_hover);
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,50,50,0.9);
+    background:var(--color_hover);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,50,50,0.9);
+    background:var(--color_hover);
     cursor:pointer;
 }
 #middle table {
@@ -177,8 +181,8 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 0, 89);
-    color:#fff;
+    background:var(--color_panel_bg);
+    color:var(--color_panel_text);
     z-index:9;
     position:fixed;
     max-height:100vh;
