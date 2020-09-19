@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 :root {
-  --color_bg: rgb(29, 39, 87);
-  --color_panel_bg: rgb(252, 245, 239);
-  --color_title: rgb(127, 148, 250);
-  --color_bg_loading: rgb(127, 148, 250);
-  --color_hover: rgb(127, 148, 250);
-  --color_loading_circle: rgb(127, 148, 250);
-  --color_panel_text: rgb(29, 39, 87);
+  --color_bg: rgb(140, 132, 132);
+  --color_panel_bg: rgb(101, 204, 183);
+  --color_title: rgb(255, 255, 255);
+  --color_bg_loading: rgb(101, 204, 183);
+  --color_hover: rgb(101, 204, 183);
+  --color_loading_circle: rgb(101, 204, 183);
+  --color_panel_text: rgb(255, 255, 255);
 }
 
 body {
