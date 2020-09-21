@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 :root {
-  --color_bg: rgb(140, 132, 132);
+  --color_bg: rgb(14, 26, 23);
   --color_panel_bg: rgb(101, 204, 183);
   --color_title: rgb(255, 255, 255);
   --color_bg_loading: rgb(101, 204, 183);
@@ -91,7 +91,7 @@ body {
 #middle h1 {
     color:var(--color_title);
     font-size:70px;
-    text-decoration:underline;
+    /*text-decoration:underline;*/
 }
 #about {
     width:10vw;
